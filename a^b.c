@@ -1,3 +1,5 @@
+/* This Program print a^b for given values. */
+
 #include<stdio.h>
 void main ()
 {
