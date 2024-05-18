@@ -1,3 +1,7 @@
+/*
+This is a program to count even numbers between given range, and print their sum. 
+*/
+
 #include <stdio.h>
 int main()
 {
