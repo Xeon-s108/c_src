@@ -1,3 +1,5 @@
+/* This Program calculates percentage out of 5 subject's marks. */
+
 #include <stdio.h>
 void main()
 {
