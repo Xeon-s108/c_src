@@ -10,8 +10,6 @@ void main()
     {
         num = num * num;
         num++;
-    }
-    {
         den = pow(den, den);
         den++;
     }
