@@ -28,6 +28,9 @@ void main()
         }
     }
 
-    printf("\nThe sorted array in ascending order is :");
-    printf("\n%d ", arr);
+    printf("\nThe sorted array in ascending order is :\n");
+    for (i = 0; i < lim; i++)
+    {
+        printf("%d ", arr[i]);
+    }
 }
