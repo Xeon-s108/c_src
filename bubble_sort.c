@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main()
 {
-    int i = 0, j, k, lim, temp;
+    int i = 0, j, lim, temp;
 
     /*Taking range as input from user.*/
     printf("Enter the range : ");
