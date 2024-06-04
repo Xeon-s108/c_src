@@ -2,6 +2,6 @@
 #include<stdio.h>
 void main ()
 {
-int i, j, k 
+int i, j, k ;
 
 }
