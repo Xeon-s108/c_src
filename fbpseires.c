@@ -9,12 +9,10 @@ void main()
     for (i = 1; i <= lim; i++)
     {
         num = num * num;
-        num++;
         den = pow(den, den);
-        den++;
-    }
-    {
         sum = sum + (num / den);
+        num++;
+        den++;
     }
     printf("\nThe sum of [%f!/%fpow(%f)] is : %f", lim, lim, lim, sum);
 }
