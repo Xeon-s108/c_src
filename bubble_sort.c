@@ -35,5 +35,4 @@ void main()
     {
         printf("%d ", arr[i]);
     }
-    printf("\n");
 }
