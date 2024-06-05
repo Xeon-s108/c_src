@@ -17,7 +17,7 @@ void main()
     }
 
     /*BUBBLE SORT HERE*/
-    for (i = 0; i < (lim - 1 - i); i++)
+    for (i = 0; i < (lim - i - 1); i++)
     {
         for (j = 0; j < lim - i; j++)
         {
