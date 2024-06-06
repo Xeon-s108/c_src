@@ -17,9 +17,9 @@ void main()
     }
 
     /*BUBBLE SORT HERE*/
-    for (i = 0; i < (lim - i - 1); i++)
+    for (i = 0; i < (lim - i); i++)
     {
-        for (j = 0; j < lim - i; j++)
+        for (j = 0; j < lim - i - 1; j++)
         {
             if (arr[j] > arr[j + 1])
             {
