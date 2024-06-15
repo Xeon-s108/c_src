@@ -6,7 +6,7 @@ void main()
     printf("Enter the range of strings : ");
     scanf("%d", &i);
     char s1[i], s2[i], temp[i];
-    printf("Enter the values in string 1 :\n");
+    printf("\nEnter the values in string 1 :\n");
     gets(s1);
     printf("Enter the values in string 2 :\n");
     gets(s2);
