@@ -2,7 +2,7 @@
 #include <string.h>
 void main()
 {
-    int i, j;
+    int i;
     printf("Enter the range of strings : ");
     scanf("%d", &i);
     char s1[i], s2[i], temp[i];
