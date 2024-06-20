@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main ()
 {
-int m, n, p, q, i, j;
+int m, n, p, q, i, j, k;
 printf("Enter the no. of rows and columns in first matrix :\n");
 scanf("%d %d",&m,&n);
 printf("Enter the no. of rows and columns in second matrix:\n");
@@ -11,7 +11,7 @@ if (m!=q || n!=p)
         printf("Invalid size for matrix multiplication, please renter correct size.\n");
         exit(0);
     }    
-int mat1[m][n], mat2[p][q];
+int mat1[m][n], mat2[p][q], resm[m][p];
 printf("Enter the values in matrix 1 :\n");
 for (i=0;i<=m;i++)
     {
@@ -31,7 +31,7 @@ for (i=0;i<=m;i++)
                 scanf("%d",&mat2[i][j]);
             }   
     }
-    
+
 
 
 
