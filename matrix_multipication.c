@@ -31,6 +31,15 @@ for (i=0;i<=m;i++)
                 scanf("%d",&mat2[i][j]);
             }   
     }
+i=0;j=0;
+for (i=0;i<=m;i++)
+    {
+        for (j=0;j<=q;j++)
+            {
+                resm[i][j] = mat1[i][j]*mat2[j][i];
+            }
+
+    }         
 
 
 
