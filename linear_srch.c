@@ -7,7 +7,7 @@ for (i=0;i)
 void main()
 {
     char  str = 'aman, jyoti, subhasha, malviya, kartikey', srch;
-    int index;
+    int index, n = sizeof(str)/sizeof(str[]);
     printf("Enter the name to search : ");
     gets(srch);
     index = linear_srch(srch);
